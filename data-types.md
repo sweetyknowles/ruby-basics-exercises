@@ -30,6 +30,22 @@ Your answer.
 Your answer.
 ```
 
+```rb
+my_favorite_number = 13
+puts "My favorite number is: " + my_favorite_number
+```
+```text
+Your answer.
+```
+
+```rb
+my_favorite_number = 13
+puts "My favorite number is: #{my_favorite_number}"
+```
+```text
+Your answer.
+```
+
 ### Truthiness and Falsiness
 
 #### Which of these evaluate as `false` in Ruby? Mark all that apply.
@@ -93,7 +109,7 @@ Your output should look something like this...
 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
 ```
 
-You technically haven't learned Ruby loops yet, so we got you started with one below (although you should be able to make sense of it). All you have to do is change the content of the loop.
+You technically haven't learned Ruby loops yet, so we started you off with one below. You should be able to make sense of it based on your experiences with Javascript. All you have to do is change the content of the loop.
 
 ```rb
 i = 0
