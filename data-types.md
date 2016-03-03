@@ -55,6 +55,7 @@ Your answer.
 [ ] 0
 [ ] ""
 [ ] null
+[ ] [ ] (empty array)
 [ ] undefined
 [ ] NaN
 [ ] nil
