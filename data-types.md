@@ -81,7 +81,7 @@ Your answer.
 
 ```rb
 no_name = ""
-if name
+if no_name
   puts "My name is: " + name
 end
 ```
@@ -91,7 +91,7 @@ Your answer.
 
 ```rb
 no_name = nil
-if name
+if no_name
   puts "My name is: " + name
 end
 ```
