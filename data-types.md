@@ -1,6 +1,9 @@
 ### Assorted Data Types
 
-#### What are the outputs and/or side effects of the following code snippets? "Error out" is a valid answer choice. Make a guess before testing your answer.
+#### What are the outputs and/or side effects of the following code snippets?
+* Make a guess before testing your answer.
+* "Error out" is a valid answer choice.
+* Also include a sentence on why you chose your answer.
 
 ```rb
 2 ** 3
@@ -61,7 +64,10 @@ Your answer.
 [ ] nil
 ```
 
-#### What are the outputs and/or side effects of the following code snippets? "Error out" is a valid answer choice. Make a guess before testing your answer.
+#### What are the outputs and/or side effects of the following code snippets?
+* Make a guess before testing your answer.
+* "Error out" is a valid answer choice.
+* Also include a sentence on why you chose your answer.
 
 ```rb
 name = gets.chomp
