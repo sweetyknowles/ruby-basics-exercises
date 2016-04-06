@@ -9,28 +9,28 @@
 2 ** 3
 ```
 ```text
-Your answer.
+8
 ```
 
 ```rb
 ((16 / 4) * (2 + 1)) ** 2
 ```
 ```text
-Your answer.
+144
 ```
 
 ```rb
 ("a milli " + "a milli") * 3
 ```
 ```text
-Your answer.
+"a milli a millia milli a millia milli a milli"
 ```
 
 ```rb
 ("a milli " * 4) / 2
 ```
 ```text
-Your answer.
+NoMethodError: undefined method `/' for "a milli a milli a milli a milli ":String
 ```
 
 ```rb
@@ -38,7 +38,7 @@ my_favorite_number = 13
 puts "My favorite number is: " + my_favorite_number
 ```
 ```text
-Your answer.
+TypeError: no implicit conversion of Fixnum into String
 ```
 
 ```rb
@@ -46,7 +46,7 @@ my_favorite_number = 13
 puts "My favorite number is: #{my_favorite_number}"
 ```
 ```text
-Your answer.
+My favorite number is: 13
 ```
 
 ### Truthiness and Falsiness
@@ -54,14 +54,14 @@ Your answer.
 #### Which of these evaluate as `false` in Ruby? Mark all that apply.
 
 ```text
-[ ] false
+[x] false
 [ ] 0
 [ ] ""
 [ ] null
 [ ] [ ] (empty array)
 [ ] undefined
 [ ] NaN
-[ ] nil
+[x] nil
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
@@ -76,7 +76,9 @@ if name
 end
 ```
 ```text
-Your answer.
+"My name is: Slim Shady"
+
+This works because of ruby's ability to add two strings and the .chomp removing the line escape character.
 ```
 
 ```rb
@@ -86,7 +88,9 @@ if no_name
 end
 ```
 ```text
-Your answer.
+undefined local variable or method `name' for main:Object (NameError)
+
+Ruby does not have falsey for empty strings so the if conditional will run. The variable name is undefined so it will throw an error.
 ```
 
 ```rb
@@ -96,7 +100,9 @@ if no_name
 end
 ```
 ```text
-Your answer.
+Does nothing
+
+The if conditional won't run because nil is falsey.
 ```
 
 ### Conditionals
@@ -119,7 +125,7 @@ Your output should look something like this...
 You technically haven't learned Ruby loops yet, so we started you off with one below. You should be able to make sense of it based on your experiences with Javascript. All you have to do is change the content of the loop.
 
 ```rb
-i = 0
+i = 1
 while i <= 100
   # Your code goes in here.
 end
