@@ -119,7 +119,7 @@ Your output should look something like this...
 You technically haven't learned Ruby loops yet, so we started you off with one below. You should be able to make sense of it based on your experiences with Javascript. All you have to do is change the content of the loop.
 
 ```rb
-i = 0
+i = 1
 while i <= 100
   # Your code goes in here.
 end
