@@ -82,7 +82,7 @@ Your answer.
 ```rb
 no_name = ""
 if no_name
-  puts "My name is: " + name
+  puts "My name is: " + no_name
 end
 ```
 ```text
@@ -92,7 +92,7 @@ Your answer.
 ```rb
 no_name = nil
 if no_name
-  puts "My name is: " + name
+  puts "My name is: " + no_name
 end
 ```
 ```text
