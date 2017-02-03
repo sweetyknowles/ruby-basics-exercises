@@ -101,6 +101,8 @@ Your answer.
 
 ### Conditionals
 
+Create a new file, `fizzbuzz.rb`. Run/test your code using `ruby fizzbuzz.rb` in your CLI (Terminal, for example).
+
 #### Write FizzBuzz in Ruby!
 
 Fizz-Buzz is a classic coding exercise that you can create using your knowledge of conditionals and loops. Implement code that does the following...
