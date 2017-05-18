@@ -101,7 +101,7 @@ Your answer.
 
 ### Conditionals
 
-Create a new file, `fizzbuzz.rb`. Run/test your code using `ruby fizzbuzz.rb` in your CLI (Terminal, for example).
+Write the code for the following exercise inside of the `app.rb` located in this repo. Run/test your code using `ruby app.rb` in the Terminal.
 
 #### Write FizzBuzz in Ruby!
 
