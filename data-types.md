@@ -72,16 +72,6 @@ Your answer.
 * Also include a sentence on why you chose your answer.
 
 ```rb
-name = gets.chomp
-if name
-  puts "My name is: " + name
-end
-```
-```text
-Your answer.
-```
-
-```rb
 no_name = ""
 if no_name
   puts "My name is: " + no_name
@@ -95,6 +85,26 @@ Your answer.
 no_name = nil
 if no_name
   puts "My name is: " + no_name
+end
+```
+```text
+Your answer.
+```
+
+```rb
+age = 21
+if age
+  puts "My age is: " + no_name
+end
+```
+```text
+Your answer.
+```
+
+```rb
+age = gets.chomp
+if age
+  puts "My age is: " + age
 end
 ```
 ```text
@@ -121,7 +131,7 @@ Your output should look something like this...
 ```
 
 <details>
-  <summary><strong>If you need help getting started...</strong></summary>
+  <summary><strong>We haven't covered loops yet, so to get you started...</strong></summary>
 
   ```rb
   i = 1
