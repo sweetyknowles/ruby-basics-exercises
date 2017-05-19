@@ -1,6 +1,7 @@
 ### Assorted Data Types
 
 #### What are the outputs and/or side effects of the following code snippets?
+
 * Make a guess before testing your answer.
 * "Error out" is a valid answer choice.
 * Also include a sentence on why you chose your answer.
@@ -65,6 +66,7 @@ Your answer.
 ```
 
 #### What are the outputs and/or side effects of the following code snippets?
+
 * Make a guess before testing your answer.
 * "Error out" is a valid answer choice.
 * Also include a sentence on why you chose your answer.
@@ -118,11 +120,14 @@ Your output should look something like this...
 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, Fizz Buzz, 31, 32, Fizz, 34, Buzz, Fizz, ...
 ```
 
-You technically haven't learned Ruby loops yet, so we started you off with one below. You should be able to make sense of it based on your experiences with Javascript. All you have to do is change the content of the loop.
+<details>
+  <summary><strong>If you need help getting started...</strong></summary>
 
-```rb
-i = 1
-while i <= 100
-  # Your code goes in here.
-end
-```
+  ```rb
+  i = 1
+  while i <= 100
+    # Your code goes in here.
+  end
+  ```
+
+</details>
