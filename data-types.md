@@ -10,14 +10,14 @@
 2 ** 3
 ```
 ```text
-Your answer.
+8
 ```
 
 ```rb
 ((16 / 4) * (2 + 1)) ** 2
 ```
 ```text
-Your answer.
+144
 ```
 
 ```rb
@@ -39,7 +39,8 @@ my_favorite_number = 13
 puts "My favorite number is: " + my_favorite_number
 ```
 ```text
-Your answer.
+undefined method `/' for "a milli a milli a milli a milli ":String
+from (pry):15:in `<main>'
 ```
 
 ```rb
@@ -47,7 +48,7 @@ my_favorite_number = 13
 puts "My favorite number is: #{my_favorite_number}"
 ```
 ```text
-Your answer.
+MY Favorite number is:13
 ```
 
 ### Truthiness and Falsiness
@@ -76,9 +77,9 @@ no_name = ""
 if no_name
   puts "My name is: " + no_name
 end
-```
-```text
-Your answer.
+`no  nill
+` o``text
+.
 ```
 
 ```rb
@@ -88,8 +89,7 @@ if no_name
 end
 ```
 ```text
-Your answer.
-```
+0.
 
 ```rb
 age = 21
@@ -98,7 +98,7 @@ if age
 end
 ```
 ```text
-Your answer.
+nil.
 ```
 
 ```rb
@@ -138,6 +138,7 @@ Your output should look something like this...
   while i <= 100
     # Your code goes in here.
   end
+  ```
   ```
 
 </details>
